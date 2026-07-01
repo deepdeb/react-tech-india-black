@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+    font-family: 'Inter', sans-serif;
+    cursor: none !important;
+}
+
+a,
+button,
+[role="button"],
+input,
+textarea {
+    cursor: none !important;
+}
+
+/* Performance & Smoothness Optimizations */
+@media (max-width: 1024px) {
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .will-change-transform {
+        will-change: transform, opacity;
+        backface-visibility: hidden;
+        perspective: 1000;
+    }
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e1e1e;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #22d3ee;
+}
+
+/* Rendering Optimizations */
+html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #000000;
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+}
+
+/* Remove this if you want selection colors */
+::selection {
+    background-color: rgba(6, 182, 212, 0.3);
+}
+
+img {
+    content-visibility: auto;
+}
