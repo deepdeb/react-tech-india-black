@@ -32,7 +32,7 @@ export default function Navbar() {
         backgroundColor: scrolled ? "rgba(0,0,0,0.95)" : "rgba(0,0,0,0)",
       }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 z-50 px-4 md:px-20"
+      className="top-0 left-0 right-0 z-50 px-4 md:px-20 py-4"
     >
       {/* Top neon rail */}
       <motion.div

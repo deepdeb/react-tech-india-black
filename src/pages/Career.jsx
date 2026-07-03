@@ -21,7 +21,7 @@ const Career = () => {
             <Navbar />
 
             {/* Hero Section */}
-            <section className="relative h-[70vh] w-full overflow-hidden">
+            <section className="relative h-[80vh] w-full overflow-hidden">
                 {/* Background Image */}
                 <div className="absolute inset-0">
                     <img
@@ -29,7 +29,7 @@ const Career = () => {
                         alt="Career at Tech-India"
                         className="h-full w-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-linear-to-r from-black via-black/60 to-transparent" />
+                    <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/40 to-transparent" />
                 </div>
 
                 {/* Hero Content */}

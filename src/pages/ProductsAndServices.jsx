@@ -81,7 +81,7 @@ const ProductsAndServices = () => {
       <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
 
       {/* Hero Section with Video */}
-      <section className="relative h-[60vh] w-full overflow-hidden bg-black text-white">
+      <section className="relative h-[100vh] w-full overflow-hidden bg-black text-white">
         {/* Background Video */}
         <video
           autoPlay
