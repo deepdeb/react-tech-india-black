@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import ProductsAndServices from "./pages/ProductsAndServices";
@@ -9,7 +9,7 @@ import CustomCursor from "./components/CustomCursor";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-black text-white cursor-none">
         <CustomCursor />
         <Routes>
@@ -23,7 +23,7 @@ const App = () => {
         {/* Chatbot - appears on all pages */}
         <Chatbot />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
